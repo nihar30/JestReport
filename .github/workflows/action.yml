@@ -34,11 +34,11 @@ jobs:
     #- run: npm i mocha supertest --save-dev
     - run: npm install --save-dev jest
     - run: npm run test:coverage
-    #- run: npm run test
+    - run: npm run test
     - run: ls -R
     
       
-    #- run: npm run coverage
+    - run: npm run coverage
     - run: npm install sonarqube-scanner --save-dev
     - run: npm run sonar
     - run: ls -R
