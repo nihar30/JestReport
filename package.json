@@ -5,7 +5,6 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    //“test”: “jest --coverage”*,
     "test": "jest --coverage",
     "sonar": "node sonar-project.js",
     "coverage": "jest --collectCoverage --"
