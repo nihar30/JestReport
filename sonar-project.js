@@ -5,7 +5,8 @@ sonarqubeScanner({
        options : {
        'sonar.sources': '.',
        'sonar.test': '.',
-       'sonar.inclusions' : '**',      
+       'sonar.inclusions' : '**',
+       'sonar.javascript.lcov.reportPath' : './coverage/lcov.info
 
 //        'sonar.coverageReportPaths' : './Junit.xml'
        },
