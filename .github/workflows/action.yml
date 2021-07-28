@@ -33,7 +33,7 @@ jobs:
     - run: npm i express
     #- run: npm i mocha supertest --save-dev
     - run: npm install --save-dev jest
-    - run: npm run test:coverage
+    #- run: npm run test:coverage
     - run: npm run test
     - run: ls -R
     
