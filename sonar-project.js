@@ -4,7 +4,7 @@ sonarqubeScanner({
   serverUrl: 'http://18.223.255.187:9000/',
        options : {
        'sonar.sources': '.',
-      
+       'sonar.test': '.',
        'sonar.inclusions' : '**',      
 
 //        'sonar.coverageReportPaths' : './Junit.xml'
