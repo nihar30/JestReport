@@ -1,11 +1,13 @@
 {
-  "name": "node-hello",
+  "name": "MyNodejs",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "jest"
+    "test": "jest",
+    "sonar": "node sonar-project.js",
+    "coverage": "jest --collectCoverage --"
   },
   "jest": {
     "verbose": true,    
