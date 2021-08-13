@@ -41,7 +41,7 @@ jobs:
       
     - run: npm run coverage
     - run: npm install sonarqube-scanner --save-dev
-    - run: npm run sonar
+#     - run: npm run sonar
     - run: ls -R
     
     - name: Push to Coveralls
