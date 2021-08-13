@@ -32,7 +32,7 @@ jobs:
         # The prefix to use to identify tags
         tag_prefix: "v"
         # A string which, if present in a git commit, indicates that a change represents a
-        # major (breaking) change, supports regular expressions wrapped with '/'
+        # major (breaking) change, supports regular expressions wrapped with '/' 
         major_pattern: "(MAJOR)"
         # Same as above except indicating a minor change, supports regular expressions wrapped with '/'
         minor_pattern: "(MINOR)"
